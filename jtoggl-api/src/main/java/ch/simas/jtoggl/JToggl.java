@@ -47,8 +47,8 @@ import org.json.simple.JSONValue;
  */
 public class JToggl {
 
-    private static final String API_ROOT = "https://www.toggl.com/api";
-    private static final String REPORTS_ENDPOINT = "https://toggl.com/reports/api/v2";
+    private static final String API_ROOT = "https://api.track.toggl.com/api";
+    private static final String REPORTS_ENDPOINT = "https://api.track.toggl.com/reports/api/v2";
     private static final int API_VERSION = 8;
     private static final String API_BASE = String.format("%s/v%d/", API_ROOT, API_VERSION);
 
